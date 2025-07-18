@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Space Bodies</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #000;
+            color: #fff;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin: 0;
+            padding: 20px;
+        }
+        .card {
+            background-color: #222;
+            border-radius: 8px;
+            margin: 15px;
+            padding: 15px;
+            width: 250px;
+            box-shadow: 0 4px 20px rgba(255, 255, 255, 0.1), 0 0 40px rgba(0, 127, 255, 0.5); /* Light shadow with space color */
+            transition: transform 0.3s ease, box-shadow 0.3s ease; /* Transition for lift effect */
+        }
+        .card:hover {
+            transform: translateY(-10px); /* Lift the card */
+            box-shadow: 0 8px 40px rgba(255, 255, 255, 0.2), 0 0 60px rgba(0, 127, 255, 1); /* Enhanced shadow on hover */
+        }
+        .card h2 {
+            margin: 0;
+            font-size: 20px;
+        }
+        .card p {
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Planets Section -->
+    <div class="card">
+        <h2>Mercury</h2>
+        <p>The smallest and innermost planet, Mercury has an eccentric orbit and extreme temperature variations.</p>
+    </div>
+
+    <div class="card">
+        <h2>Venus</h2>
+        <p>Known as Earth's "sister planet," Venus has a thick atmosphere and is the hottest planet in the solar system.</p>
+    </div>
+
+    <div class="card">
+        <h2>Earth</h2>
+        <p>The third planet from the Sun, Earth is the only known celestial body to support life.</p>
+    </div>
+
+    <div class="card">
+        <h2>Mars</h2>
+        <p>Known as the "Red Planet," Mars has the tallest volcano and deepest canyon in the solar system.</p>
+    </div>
+
+    <div class="card">
+        <h2>Jupiter</h2>
+        <p>The largest planet, Jupiter is a gas giant with a Great Red Spot, a massive storm larger than Earth.</p>
+    </div>
+
+    <div class="card">
+        <h2>Saturn</h2>
+        <p>Best known for its stunning rings, Saturn is another gas giant made mainly of hydrogen and helium.</p>
+    </div>
+
+    <div class="card">
+        <h2>Uranus</h2>
+        <p>An ice giant, Uranus rotates on its side and has a blue-green hue due to methane in its atmosphere.</p>
+    </div>
+
+    <div class="card">
+        <h2>Neptune</h2>
+        <p>Another ice giant, Neptune has strong winds and storm systems, including the Great Dark Spot.</p>
+    </div>
+
+    <div class="card">
+        <h2>Pluto</h2>
+        <p>Once the ninth planet, Pluto is now classified as a dwarf planet and is part of the Kuiper Belt.</p>
+    </div>
+
+    <!-- Asteroids Section -->
+    <div class="card">
+        <h2>(2022 AO2)</h2>
+        <p>A near-Earth asteroid with an uncertain orbit and potential for close approaches to Earth.</p>
+    </div>
+
+    <div class="card">
+        <h2>(2024 AM3)</h2>
+        <p>A small asteroid in the vicinity of Earth, with its orbit closely monitored by astronomers.</p>
+    </div>
+
+    <div class="card">
+        <h2>(2023 XN7)</h2>
+        <p>This asteroid has been classified as a near-Earth object and poses no immediate threat to Earth.</p>
+    </div>
+
+    <div class="card">
+        <h2>(2023 YR1)</h2>
+        <p>A recently discovered asteroid that orbits the Sun and occasionally approaches Earth.</p>
+    </div>
+
+    <div class="card">
+        <h2>(2024 AA2)</h2>
+        <p>This near-Earth object has a small size and is categorized as a potentially hazardous asteroid.</p>
+    </div>
+
+    <div class="card">
+        <h2>(2012 BV13)</h2>
+        <p>An asteroid that crosses Earth's orbit and is closely monitored for potential impact risks.</p>
+    </div>
+
+    <div class="card">
+        <h2>(2018 HN)</h2>
+        <p>A near-Earth asteroid that made a close approach to Earth in 2018, with a diameter of about 12 meters.</p>
+    </div>
+
+    <div class="card">
+        <h2>(2020 QL2)</h2>
+        <p>A small near-Earth asteroid that has been observed multiple times since its discovery in 2020.</p>
+    </div>
+
+    <div class="card">
+        <h2>(2001 CB21)</h2>
+        <p>A near-Earth asteroid with a diameter of about 1 km, part of the Apollo group of asteroids.</p>
+    </div>
+
+    <div class="card">
+        <h2>(99942 Apophis)</h2>
+        <p>A near-Earth asteroid that gained attention due to its close approach to Earth in 2029 and 2036.</p>
+    </div>
+
+    <div class="card">
+        <h2>(2430 Bickel)</h2>
+        <p>A small near-Earth asteroid classified as a potential impactor, discovered in 1976.</p>
+    </div>
+
+    <!-- Comets Section -->
+    <div class="card">
+        <h2>Comet NEOWISE (C/2020 F3)</h2>
+        <p>A bright comet that became visible to the naked eye in July 2020, discovered by the NEOWISE spacecraft.</p>
+    </div>
+
+    <div class="card">
+        <h2>Comet Hale-Bopp (C/1995 O1)</h2>
+        <p>One of the most observed comets of the 20th century, visible for a record 18 months in 1996-1997.</p>
+    </div>
+
+    <div class="card">
+        <h2>Comet Hyakutake (C/1996 B2)</h2>
+        <p>Known for its long tail and brightness, this comet made a close approach to Earth in 1996.</p>
+    </div>
+
+    <div class="card">
+        <h2>Comet Shoemaker-Levy 9</h2>
+        <p>Famous for its collision with Jupiter in 1994, it provided insights into impact events.</p>
+    </div>
+
+    <div class="card">
+        <h2>Comet 67P/Churyumov-Gerasimenko</h2>
+        <p>The target of the Rosetta mission, this comet was studied extensively by the European Space Agency.</p>
+    </div>
+
+    <div class="card">
+        <h2>Comet 41P/Tuttle-Giacobini-Kresak</h2>
+        <p>A periodic comet that returns every 5.4 years, known for its bright appearance.</p>
+    </div>
+
+    <div class="card">
+        <h2>Comet 73P/Schwassmann-Wachmann</h2>
+        <p>A periodic comet known for its disintegration in 1995, leading to multiple fragments.</p>
+    </div>
+
+    <div class="card">
+        <h2>Comet 2P/Encke</h2>
+        <p>A periodic comet with the shortest known orbital period of about 3.3 years.</p>
+    </div>
+
+    <div class="card">
+        <h2>Comet 19P/Borrelly</h2>
+        <p>A periodic comet that made a close approach to Earth in 2001, observed by the Deep Space 1 spacecraft.</p>
+    </div>
+
+    <div class="card">
+        <h2>Comet 106P/Swift-Tuttle</h2>
+        <p>The parent comet of the Perseid meteor shower, known for its bright and spectacular displays.</p>
+    </div>
+
+    <div class="card">
+        <h2>Comet 73P/Schwassmann-Wachmann 3</h2>
+        <p>A periodic comet that exhibited fragmentation, causing it to break into multiple pieces.</p>
+    </div>
+
+</body>
+</html>
